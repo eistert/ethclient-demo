@@ -1,0 +1,119 @@
+# -----------------------------
+# Go build / cache artifacts
+# -----------------------------
+/bin/
+/build/
+/dist/
+/out/
+/tmp/
+/*.exe
+/*.dll
+/*.so
+/*.dylib
+/*.test
+*.out
+coverage*.txt
+profile*.out
+
+# Go workspace/module caches (本地缓存，不应入库)
+.gocache/
+.gotmp/
+golangci-lint.cache
+
+# -----------------------------
+# Solidity / abigen outputs
+# -----------------------------
+# solcjs 默认输出 (根据你的文件名调整大小写)
+*.abi
+*.bin
+# 如果你要保留 ABI，请将 *.abi 从忽略中移除或单独 allowlist：
+# !contracts/**/IERC20.abi
+
+# abigen 生成代码（通常建议版本化，但也可选择忽略）
+# 若不想入库，打开下一行：
+# **/store/store.go
+# **/contracts_erc20/*.go
+
+# foundry（如果使用）
+out/
+cache/
+broadcast/
+
+# -----------------------------
+# Node / JS tooling (如果用到 solcjs、hardhat)
+# -----------------------------
+node_modules/
+npm-debug.log*
+yarn.lock # 若你用 npm，可忽略；用 yarn 则保留
+pnpm-lock.yaml # 同理
+
+# Hardhat artifacts（按需保留）
+artifacts/
+cache/
+
+# -----------------------------
+# Secrets / local config (非常重要)
+# -----------------------------
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.crt
+*.cer
+*.der
+*.keystore
+*.secret
+secrets/
+# 常见自定义密钥文件名
+privateKey.txt
+private_key.txt
+alchemy.key
+infura.key
+ignore.txt
+
+# geth/chain 数据（本地测试链数据量很大，绝不入库）
+geth/
+chaindata/
+keystore/   # ⚠️ 如果你需要演示用的假地址/小额测试账户，可改名后入库
+
+# anvil（foundry 本地区块链）
+.anvil/
+
+# -----------------------------
+# Logs / temp
+# -----------------------------
+*.log
+logs/
+*.pid
+*.tmp
+*.swp
+*.swo
+
+# -----------------------------
+# IDE / Editors
+# -----------------------------
+# GoLand / IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+.history/
+
+# -----------------------------
+# OS-specific
+# -----------------------------
+.DS_Store
+Thumbs.db
+Icon?
+.Spotlight-V100
+.Trashes
+
+# -----------------------------
+# Docker / Compose
+# -----------------------------
+docker-data/
+*.tar
+*.img
