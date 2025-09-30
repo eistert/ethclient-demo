@@ -16,8 +16,8 @@ import (
 )
 
 const (
-	rpcURL       = "https://eth-sepolia.g.alchemy.com/v2/fBR8OwccYIS5h7DcKaQ53" // 你的节点（Ganache/本地/测试网RPC）
-	contractAddr = "0xbAB8279bA4FDE67A871c8E7df6E74CBAe887f118"                 // 已部署的 Store 合约地址
+	rpcURL       = "https://eth-sepolia.g.alchemy.com/v2/xxxx"  // 你的节点（Ganache/本地/测试网RPC）
+	contractAddr = "0xbAB8279bA4FDE67A871c8E7df6E74CBAe887f118" // 已部署的 Store 合约地址
 	timeout      = 10 * time.Second
 )
 

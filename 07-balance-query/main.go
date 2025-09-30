@@ -13,7 +13,7 @@ import (
 
 func main() {
 	// 1) 建立连接
-	client, err := ethclient.Dial("https://eth-sepolia.g.alchemy.com/v2/fBR8OwccYIS5h7DcKaQ53")
+	client, err := ethclient.Dial("https://eth-sepolia.g.alchemy.com/v2/xxxx")
 	if err != nil {
 		log.Fatalf("[ERR] ethclient.Dial: %v", err)
 	}

@@ -16,7 +16,7 @@ import (
 	"github.com/ethereum/go-ethereum/ethclient"
 )
 
-const rpcURL = "https://eth-sepolia.g.alchemy.com/v2/fBR8OwccYIS5h7DcKaQ53" // ← 换成你的 RPC
+const rpcURL = "https://eth-sepolia.g.alchemy.com/v2/xxxx" // ← 换成你的 RPC
 
 func main() {
 	ctx, cancel := context.WithTimeout(context.Background(), 20*time.Second)

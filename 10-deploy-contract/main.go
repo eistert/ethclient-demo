@@ -21,7 +21,7 @@ import (
 func main() {
 
 	// 1) 连接节点 （示例：Sepolia）
-	client, err := ethclient.Dial("https://eth-sepolia.g.alchemy.com/v2/fBR8OwccYIS5h7DcKaQ53")
+	client, err := ethclient.Dial("https://eth-sepolia.g.alchemy.com/v2/xxx")
 	mustOK("ethclient.Dial", err)
 	defer client.Close()
 

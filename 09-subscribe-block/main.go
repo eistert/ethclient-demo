@@ -15,7 +15,7 @@ import (
 
 func main() {
 	// 1) 连接 WebSocket 节点（示例使用 Sepolia；替换为你的实际 WS URL）
-	wsURL := "wss://eth-sepolia.g.alchemy.com/v2/fBR8OwccYIS5h7DcKaQ53"
+	wsURL := "wss://eth-sepolia.g.alchemy.com/v2/xxx"
 	client, err := ethclient.Dial(wsURL)
 	if err != nil {
 		log.Fatalf("[ERR] ethclient.Dial: %v", err)

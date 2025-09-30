@@ -11,7 +11,7 @@ import (
 	"github.com/ethereum/go-ethereum/ethclient"
 )
 
-const rpcURL = "https://eth-sepolia.g.alchemy.com/v2/fBR8OwccYIS5h7DcKaQ53"
+const rpcURL = "https://eth-sepolia.g.alchemy.com/v2/xxx"
 
 // 运行后会连接节点、拿到最新区块头，再把该高度的完整区块取出来，最后打印交易数量等关键信息。
 

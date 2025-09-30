@@ -18,7 +18,7 @@ import (
 )
 
 // 建议把密钥改为环境变量读取；这里为演示方便先写死
-const rpcURL = "https://eth-sepolia.g.alchemy.com/v2/fBR8OwccYIS5h7DcKaQ53"
+const rpcURL = "https://eth-sepolia.g.alchemy.com/v2/xxxx"
 
 func printHex(label string, b []byte) {
 	fmt.Printf("%-26s %s\n", label+":", hexutil.Encode(b))

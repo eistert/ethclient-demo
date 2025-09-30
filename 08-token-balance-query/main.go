@@ -16,7 +16,7 @@ import (
 
 func main() {
 	// 1) 连接以太坊节点
-	client, err := ethclient.Dial("https://eth-sepolia.g.alchemy.com/v2/fBR8OwccYIS5h7DcKaQ53")
+	client, err := ethclient.Dial("https://eth-sepolia.g.alchemy.com/v2/xxx")
 	if err != nil {
 		log.Fatalf("[ERR] ethclient.Dial: %v", err)
 	}

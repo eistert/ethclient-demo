@@ -14,7 +14,7 @@ import (
 )
 
 // 建议：把你的 Alchemy/Infura/QuickNode 的 RPC URL 放到环境变量里更安全
-const rpcURL = "https://eth-sepolia.g.alchemy.com/v2/fBR8OwccYIS5h7DcKaQ53"
+const rpcURL = "https://eth-sepolia.g.alchemy.com/v2/xxx"
 
 func main() {
 	// 统一给所有 RPC 调用一个超时（生产中建议配合重试）

@@ -22,7 +22,7 @@ const contractBytecode = "608060405234801561000f575f5ffd5b5060405161087838038061
 
 func main() {
 	// 1) 连接节点（示例：Goerli/或 Sepolia，按需替换）
-	client, err := ethclient.Dial("https://eth-sepolia.g.alchemy.com/v2/fBR8OwccYIS5h7DcKaQ53")
+	client, err := ethclient.Dial("https://eth-sepolia.g.alchemy.com/v2/xxx")
 	mustOK("ethclient.Dial", err)
 	defer client.Close()
 

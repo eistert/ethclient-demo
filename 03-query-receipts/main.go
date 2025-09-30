@@ -15,7 +15,7 @@ import (
 )
 
 // 建议把密钥改为环境变量读取；这里为演示方便先写死
-const rpcURL = "https://eth-sepolia.g.alchemy.com/v2/fBR8OwccYIS5h7DcKaQ53"
+const rpcURL = "https://eth-sepolia.g.alchemy.com/v2/xxxx"
 
 func main() {
 	// 统一超时，避免网络抖动时阻塞
