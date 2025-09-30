@@ -26,7 +26,7 @@ func main() {
 	defer client.Close()
 
 	// 2) 私钥与地址
-	privateKey, err := crypto.HexToECDSA("1a6c59d835e0036630d0337caba6c68628268e4057c08d69a0726e915c7e4714")
+	privateKey, err := crypto.HexToECDSA("your private key")
 	mustOK("HexToECDSA", err)
 	pub := privateKey.Public().(*ecdsa.PublicKey)
 	from := crypto.PubkeyToAddress(*pub)

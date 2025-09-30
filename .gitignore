@@ -72,6 +72,7 @@ private_key.txt
 alchemy.key
 infura.key
 ignore.txt
+.env
 
 # geth/chain 数据（本地测试链数据量很大，绝不入库）
 geth/
